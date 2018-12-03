@@ -27,4 +27,4 @@ ADD check.sh /
 RUN sed -i 's/\r$//' /check.sh
 RUN chmod a+x /check.sh
 
-#docker stop node ; docker rm node ; docker run -it --privileged -v ~/docker/node:/node -p 80:80 --name node land007/node:latest
+#docker stop cpp-node ; docker rm cpp-node ; docker run -it --privileged -v ~/docker/cpp-node:/cpp-node -p 80:80 --name cpp-node land007/cpp-node:latest
